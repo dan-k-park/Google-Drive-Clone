@@ -1,6 +1,6 @@
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
-import { useAuth } from "../contexts/AuthContext";
+import { useAuth } from "../../contexts/AuthContext";
 
 // Wrapper to prevent attempted access to dashboard after signout
 const PrivateRoute = ({ component: Component, ...rest }) => {
